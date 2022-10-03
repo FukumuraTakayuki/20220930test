@@ -278,12 +278,12 @@ img {
 
 .flex__item {
   display: flex;
-  justify-content: space-between;
+  padding-left: 20vw;
 }
 
 .practice__card {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 15%;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -314,6 +314,7 @@ img {
 }
 
 .tag {
+  display: flex;
   font-size: 14px;
   text-align: right;
 }
