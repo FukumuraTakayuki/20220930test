@@ -382,7 +382,7 @@ table th {
 .ricruit_cat {
   display: flex;
   padding-left: 15vw;
-  margin-top: 100px;
+  margin-top: 700px;
 }
 
 .ricruit {
@@ -414,7 +414,7 @@ table th {
 
 .plactice__btn {
   position: relative;
-  background-color: #55bbbb;
+  background-color: rgb(130, 72, 130);
   width: 200px;
   display: block;
   padding: 18px;
@@ -448,8 +448,8 @@ a {
 
 .footer {
   width: 100%;
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(145, 143, 143);
+  color: black;
   padding: 20px 0;
   text-align: center;
 }
