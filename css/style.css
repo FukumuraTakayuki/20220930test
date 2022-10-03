@@ -381,11 +381,34 @@ table th {
 /*ここから採用情報*/
 .ricruit_cat {
   display: flex;
+  padding-left: 15vw;
+  margin-top: 100px;
+}
+
+.ricruit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  background: url(../img/recruit.png)no-repeat;
+  color: #ccc;
+  margin-bottom: 70px;
+}
+
+.interview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  background: url(../img/interview.png)no-repeat;
+  color: #ccc;
+  margin-bottom: 70px;
 }
 
 /*ここからestra*/
-.estra__text {
-  display: flex;
+.estra {
   text-align: center;
 }
 
