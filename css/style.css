@@ -33,6 +33,7 @@ a {
   position: relative;
 }
 
+
 .firstview__img {
   margin: 0 0 0 auto;
   display: block;
@@ -121,14 +122,18 @@ ul {
 
 /* ここからがニュース記事のCSS */
 
-.news_list {
-  margin: 0 5%;
+.newsitem {
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  margin-left: 222vw;
+  
 }
 
 .newsitem {
   width: 50%;
   margin-top: 70px;
-  padding-left: 20vw;
+  margin-left: 22vw;
+  
 }
 
 .news_list_item {
@@ -154,10 +159,10 @@ ul {
 }
 
 .news_item {
-  background: rgb(244, 154, 244);
+  background: purple;
+  color: #ccc;
   border-radius: 14px;
   width: 6em;
-  /* 親要素の文字サイズを基準 */
   text-align: center;
   margin-left: 20px;
 }
@@ -165,14 +170,14 @@ ul {
 /*ここからAbout*/
 
 .about {
-  width: 1500px;
-  height: 500px;
+  max-width: 100%;
+  height: 100%;
   padding: 30px 0;
-  background: #ebebeb;
+  background: rgb(219, 217, 217);
 }
 
 .about__img {
-  padding-left: 800px;
+  padding-left: 55%;
   margin: 20px;
   width: 500px;
   height: 300px;
@@ -194,6 +199,7 @@ ul {
 }
 
 .about__content {
+  max-width: 50%;
   font-size: 20px;
   text-align: left;
   margin-top: 20px;
@@ -305,8 +311,15 @@ img {
 
 /*ここからblog*/
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .blog {
-  max-width: 1500px;
+  width: 1500px;
     height: 500px;
     padding: 30px 0;
     background: #ebebeb;
@@ -319,7 +332,7 @@ img {
   font-size: 18px;
   text-align: left;
   padding-left: 20vw;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .blogsub_ttl {
@@ -330,27 +343,32 @@ img {
   padding-left: 20vw;
 }
 
+.blog_cat {
+  align-items: center;
+}
+
 .flex__item {
   display: flex;
+  align-content: center;
   padding-left: 20vw;
 }
 
 .practice__card {
   position: relative;
-  border-radius: 30px;
   width: 20%;
   height: 15%;
   padding-left: 20px;
-  padding-right: 20px;
 }
 
 .card__img img {
   width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 
 .card__content {
   background-color: white;
   padding: 1px 25px;
+  border-radius: 0 0 20px 20px;
 }
 
 .card__ttl {
@@ -362,9 +380,10 @@ img {
 .card__cat {
   position: absolute;
   top: 0%;
-  left: 10%;
+  left: 7%;
   text-align: center;
-  padding: 5px 10px;
+  border-radius: 20px 0 0 0;
+  padding: 10px 10px;
   background: purple;
   display: inline-block;
   color: #fff;
@@ -375,6 +394,7 @@ img {
   display: flex;
   font-size: 14px;
   text-align: right;
+  padding-bottom: 10px;
 }
 
 .card__tag {
@@ -391,7 +411,8 @@ img {
   font-size: 14px;
 }
 
-.ichiran {
+
+.link {
   position: relative;
   background-color: white;
   width: 200px;
@@ -399,11 +420,12 @@ img {
   padding: 18px;
   text-align: center;
   color: purple;
+  border: 1px solid purple;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 30px;
-  margin: 30px auto;
+  margin: 25px 38%;
 }
 
 /*ここからcompany*/
@@ -412,15 +434,14 @@ img {
   font-family: 'Gorditas', cursive;
   font-size: 20px;
   text-align: left;
-  padding-left: 20vw;
-  margin-top: 200px;
+  padding-left: 10vw;
+  margin-top: 50px;
 }
 
 .companysub_ttl {
   font-size: 30px;
   text-align: left;
-  margin-bottom: 40px;
-  padding-left: 20vw;
+  padding-left: 10vw;
 }
 
 table {
@@ -444,41 +465,54 @@ table th {
 /*ここから採用情報*/
 .ricruit_cat {
   display: flex;
-  margin-top: 900px;
+  margin-top: 700px;
 }
 
 .ricruit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 400px;
-  background: url(../img/recruit.png)no-repeat;
-  color: #ccc;
-  margin-bottom: 70px;
+  position: relative;
+    background: url(../img/recruit.png) no-repeat center/cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+.recruit_text {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #fff;
+
 }
 
 .interview {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 400px;
-  background: url(../img/interview.png)no-repeat;
-  color: #ccc;
-  margin-bottom: 70px;
+  position: relative;
+    background: url(../img/interview.png) no-repeat center/cover;
+    height: 50vh;
+    width: 100vw;
 }
+
+.interview_text {
+  position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+}
+
 
 /*ここからestra*/
 .estra {
   text-align: center;
+  margin-top: 50px;
 }
 
 .title {
   margin: 20px 50vw;
-  padding: 50px;
-  border-left: 5px solid purple;
-  width: 120px;
+  padding: 30px;
+  border-left: 3px solid purple;
+  width: 100px;
 }
 
 
