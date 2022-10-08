@@ -184,7 +184,7 @@ ul {
   color: purple;
   font-size: 18px;
   text-align: center;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 
 .aboutsub_ttl {
@@ -319,7 +319,7 @@ img {
   font-size: 18px;
   text-align: left;
   padding-left: 20vw;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .blogsub_ttl {
@@ -444,7 +444,7 @@ table th {
 /*ここから採用情報*/
 .ricruit_cat {
   display: flex;
-  margin-top: 800px;
+  margin-top: 900px;
 }
 
 .ricruit {
