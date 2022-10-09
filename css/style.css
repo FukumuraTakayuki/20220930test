@@ -361,7 +361,6 @@ img {
   width: 25%;
   height: 25%;
   padding: 20px;
-  margin: auto;
 }
 
 .card__img img {
@@ -432,7 +431,7 @@ img {
   font-weight: bold;
   text-decoration: none;
   border-radius: 30px;
-  margin: 30px 38%;
+  margin: auto;
 }
 
 /*ここからcompany*/
