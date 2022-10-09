@@ -383,6 +383,7 @@ img {
 
 .practice__card {
   left: 10vw;
+  bottom: 10px;
 }
 
 .card__cat {
@@ -433,6 +434,7 @@ img {
   text-decoration: none;
   border-radius: 30px;
   margin: 10px auto;
+  bottom: 10px;
 }
 
 /*ここからcompany*/
