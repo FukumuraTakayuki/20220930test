@@ -239,6 +239,7 @@ ul {
 img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 .grid__parent {
@@ -486,7 +487,7 @@ table th {
 .recruit_text {
   position: absolute;
     padding-top: 10vw;
-    left: 40vw;
+    left: 20vw;
     font-size: 2.5vw;
     color: white;
 
@@ -494,6 +495,7 @@ table th {
 
 .interview img{
   width: 100％;
+  vertical-align: bottom;
 }
 
 .interview_text {
