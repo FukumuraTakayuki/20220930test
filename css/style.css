@@ -237,7 +237,7 @@ ul {
 }
 
 img {
-  width: 100px;
+  width: 100%;
   height: auto;
 }
 
@@ -478,33 +478,30 @@ table th {
   
 }
 
-.ricruit {
+.ricruit img{
   position: relative;
   width: 100%;
 }
 
 .recruit_text {
   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 10vw;
+    left: 40vw;
     font-size: 2.5vw;
-    color: #fff;
+    color: white;
 
 }
 
-.interview {
-  position: relative;
-  width: 100%;
+.interview img{
+  width: 100％;
 }
 
 .interview_text {
   position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
+  padding-top: 10vw;
+  right: 17vw;
     font-size: 2.5vw;
-    color: #fff;
+    color: white;
 }
 
 
