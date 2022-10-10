@@ -203,7 +203,7 @@ ul {
   font-family: 'Gorditas', cursive;
   font-size: 20px;
   text-align: left;
-  padding-left: 12vw;
+  padding-left: 22vw;
   margin-top: 30px;
 }
 
@@ -211,7 +211,7 @@ ul {
   font-size: 30px;
   text-align: left;
   margin-bottom: 40px;
-  padding-left: 12vw;
+  padding-left: 22vw;
 }
 
 .box1 img {
@@ -421,14 +421,14 @@ ul {
   font-family: 'Gorditas', cursive;
   font-size: 20px;
   text-align: left;
-  padding-left: 10vw;
+  padding-left: 20vw;
   margin-bottom: 5px;
 }
 
 .companysub_ttl {
   font-size: 30px;
   text-align: left;
-  padding-left: 10vw;
+  padding-left: 20vw;
   margin-bottom: 20px;
 }
 
@@ -491,6 +491,10 @@ table th {
   margin-top: 50px;
 }
 
+.estra_text {
+  font-weight: bold;
+}
+
 .title {
   margin: 20px 50vw;
   padding: 30px;
@@ -498,10 +502,9 @@ table th {
   width: 100px;
 }
 
-
-.plactice__btn {
+.practice__btn {
   position: relative;
-  background-color: rgb(130, 72, 130);
+  background: linear-gradient(90deg, rgb(249, 136, 249), #8b00be);
   width: 200px;
   display: block;
   padding: 18px;
@@ -515,7 +518,8 @@ table th {
   box-shadow: 5px 5px 3px purple;
 }
 
-.plactice__btn::before {
+
+.practice__btn::before {
   content: "";
   position: absolute;
   top: 50%;
